@@ -8,11 +8,11 @@ This is the Bristol FSAI simulator developed for the FSAI competition. It curren
 
 ## Setup
 
-0. Follow the [setup guides](https://bristol-fsai.notion.site/ROS-Workspace-Setup-11c29866e62680b3a193ee29496b3f37?pvs=4) if you need to set up a ROS workspace (there are .devcontainer files included in this repo if you are using dev containers).
+0. Follow the [setup guides](https://www.notion.so/ROS-Workspace-Setup-2628e265caa6812984e1cd535728af9b) if you need to set up a ROS workspace (there are .devcontainer files included in this repo if you are using dev containers).
 
 1. Navigate to your home folder and clone this repo (this will be inside your virtual machine/container)
    ```
-   git clone https://github.com/Formula-Student-AI/core-sim
+   git clone https://github.com/Formula-Student-AI/bristol_fsai_sim-docker.git
    ```
 
 2. Install ROS Dependencies for EUFS Sim
@@ -35,7 +35,7 @@ This is the Bristol FSAI simulator developed for the FSAI competition. It curren
    ros2 launch eufs_launcher eufs_launcher.launch.py
    ```
 
-If you have any problems check [Known Issues with EUFS sim](https://gitlab.com/eufs/eufs_sim/-/wikis/Getting-Started-Guide#4-known-issues-) first. Contact us ([bristol.fsai@gmail.com](mailto:bristol.fsai@gmail.com)) if you think you've found any bugs.
+If you have any problems check [Known Issues with EUFS sim](https://gitlab.com/eufs/eufs_sim/-/wikis/Getting-Started-Guide#4-known-issues-) first. Contact us ([cs-fsai@bristol.ac.uk](mailto:cs-fsai@bristol.ac.uk)) if you think you've found any bugs.
 
 ## Credit
 - ijnek: https://github.com/ijnek/ros-devcontainer-template
