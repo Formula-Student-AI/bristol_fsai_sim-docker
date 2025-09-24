@@ -37,6 +37,20 @@ This is the Bristol FSAI simulator developed for the FSAI competition. It curren
 
 If you have any problems check [Known Issues with EUFS sim](https://gitlab.com/eufs/eufs_sim/-/wikis/Getting-Started-Guide#4-known-issues-) first. Contact us ([bristol.fsai@gmail.com](mailto:bristol.fsai@gmail.com)) if you think you've found any bugs.
 
+## How to Conritube
+
+**Create new branch**
+   ```
+   git checkout change_your_branch_name
+   ```
+
+**Make your changes**
+   ```
+   git add file_name ...
+   git commit -m "change_your_commit_message"
+   git push
+   ```
+
 ## Credit
 - ijnek: https://github.com/ijnek/ros-devcontainer-template
 - EUFS: https://gitlab.com/eufs
