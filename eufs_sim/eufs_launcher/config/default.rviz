@@ -179,6 +179,66 @@ Visualization Manager:
       Value: false
     - Class: eufs_rviz_plugins/ConeArrayWithCovariance
       Enabled: true
+      Name: Perception Cones
+      Namespaces:
+        {}
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /perception/cones
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Name: PF Cones
+      Namespaces:
+        {}
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /pf_cones
+      Value: true
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: Midpoint Marker
+      Namespaces:
+        {}
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /midpoint_marker
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Name: Spline Trajectory
+      Namespaces:
+        {}
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /spline_trajectory
+      Value: true
+#    - Class: rviz_default_plugins/Marker
+#      Enabled: true
+#      Name: Stop Zone Marker
+#      Namespaces:
+#        {}
+#      Topic:
+#        Depth: 5
+#        Durability Policy: Volatile
+#        History Policy: Keep Last
+#        Reliability Policy: Reliable
+#        Value: /stop_zone_marker
+#      Value: true
+    - Class: eufs_rviz_plugins/ConeArrayWithCovariance
+      Enabled: false
       Name: Left Camera Cones
       Namespaces:
         cone: true
@@ -189,9 +249,9 @@ Visualization Manager:
         History Policy: Keep Last
         Reliability Policy: Reliable
         Value: /camera_0/cones
-      Value: true
+      Value: false
     - Class: eufs_rviz_plugins/ConeArrayWithCovariance
-      Enabled: true
+      Enabled: false
       Name: Right Camera Cones
       Namespaces:
         cone: true
@@ -202,7 +262,7 @@ Visualization Manager:
         History Policy: Keep Last
         Reliability Policy: Reliable
         Value: /camera_1/cones
-      Value: true
+      Value: false
     - Class: eufs_rviz_plugins/WaypointArrayStamped
       Enabled: false
       Name: WaypointArrayStamped

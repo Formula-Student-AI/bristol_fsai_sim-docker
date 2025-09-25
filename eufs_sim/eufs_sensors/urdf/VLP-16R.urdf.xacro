@@ -56,9 +56,9 @@
     </link>
 
     <!-- Simulate raw perception sensors only if we're not using the abstracted perception simulation -->
-    <xacro:unless value="${active}">
+    <!-- <xacro:unless value="${active}"> -->
       <!-- Gazebo requires the velodyne_gazebo_plugins package -->
-      <gazebo reference="${name}">
+      <!-- <gazebo reference="${name}">
         <sensor type="ray" name="${name}-VLP16">
           <always_on>true</always_on>
           <pose>0 0 0 0 0 0</pose>
@@ -102,7 +102,7 @@
 
         </sensor>
       </gazebo>
-    </xacro:unless>
+    </xacro:unless> -->
 
   </xacro:macro>
 </robot>

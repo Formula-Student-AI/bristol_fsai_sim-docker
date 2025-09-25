@@ -30,5 +30,4 @@ def generate_launch_description():
                 'gui': LaunchConfiguration("gui")
             }],
         ),
-
     ])

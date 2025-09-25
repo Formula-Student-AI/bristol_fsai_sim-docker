@@ -59,20 +59,20 @@ void GazeboGroundTruthCones::Load(gazebo::physics::ModelPtr _parent, sdf::Elemen
   this->update_rate_ = getDoubleParameter(_sdf, "updateRate", 0,
                                           "0.0 (as fast as possible)");
 
-  this->lidar_total_view_distance = getDoubleParameter(_sdf, "lidarViewDistance",
-                                                       100, "100");
+  // this->lidar_total_view_distance = getDoubleParameter(_sdf, "lidarViewDistance",
+  //                                                      100, "100");
   this->camera_total_view_distance = getDoubleParameter(_sdf, "cameraViewDistance",
                                                         10, "10");
-  this->lidar_min_view_distance = getDoubleParameter(_sdf, "lidarMinViewDistance",
-                                                     1, "1");
+  // this->lidar_min_view_distance = getDoubleParameter(_sdf, "lidarMinViewDistance",
+  //                                                    1, "1");
   this->camera_min_view_distance = getDoubleParameter(_sdf, "cameraMinViewDistance",
                                                       1, "1");
-  this->lidar_x_view_distance = getDoubleParameter(_sdf, "lidarXViewDistance",
-                                                   20, "20");
-  this->lidar_y_view_distance = getDoubleParameter(_sdf, "lidarYViewDistance",
-                                                   10, "10");
-  this->lidar_fov = getDoubleParameter(_sdf, "lidarFOV", 3.141593,
-                                       "3.141593  (180 degrees)");
+  // this->lidar_x_view_distance = getDoubleParameter(_sdf, "lidarXViewDistance",
+  //                                                  20, "20");
+  // this->lidar_y_view_distance = getDoubleParameter(_sdf, "lidarYViewDistance",
+  //                                                  10, "10");
+  // this->lidar_fov = getDoubleParameter(_sdf, "lidarFOV", 3.141593,
+  //                                      "3.141593  (180 degrees)");
   this->camera_fov = getDoubleParameter(_sdf, "cameraFOV", 1.918889,
                                         "1.918889  (110 degrees)");
   this->camera_a =

@@ -6,6 +6,7 @@ from launch.substitutions import LaunchConfiguration
 from launch.substitutions import PathJoinSubstitution
 from launch.substitutions import PythonExpression
 from launch.launch_description_sources import FrontendLaunchDescriptionSource
+from launch.launch_description_sources import PythonLaunchDescriptionSource
 
 
 def generate_launch_description():
@@ -33,7 +34,7 @@ def generate_launch_description():
 
         DeclareLaunchArgument(
             name='robot_name',
-            default_value='eufs',
+            default_value='ads-dv',
             description="Determines which robot urdf is used in the sim"),
 
         DeclareLaunchArgument(
@@ -80,6 +81,33 @@ def generate_launch_description():
                 ('publish_gt_tf', LaunchConfiguration('publish_gt_tf')),
                 ('pub_ground_truth', LaunchConfiguration('pub_ground_truth')),
                 ('launch_group', LaunchConfiguration('launch_group')),
+            ]
+        ),
+
+        #########################################################
+        # Bristol FSAI Launch Description
+        #########################################################
+
+        DeclareLaunchArgument(
+            name='bristol_fsai_debug',
+            default_value='false',
+            description="Enable Bristol FSAI debugging and visualizations"),
+
+        DeclareLaunchArgument(
+            name='bristol_fsai_hardware_mode',
+            default_value='false',
+            description="Run in hardware mode"),
+
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(
+                PathJoinSubstitution([
+                    get_package_share_directory('eufs_launcher'),
+                    'bristol_fsai.launch.py'
+                ])
+            ),
+            launch_arguments=[
+                ('bristol_fsai_debug', LaunchConfiguration('bristol_fsai_debug')),
+                ('bristol_fsai_hardware_mode', LaunchConfiguration('bristol_fsai_hardware_mode')),
             ]
         ),
     ])

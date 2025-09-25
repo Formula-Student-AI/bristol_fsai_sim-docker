@@ -43,6 +43,7 @@ from ament_index_python.packages import get_package_share_directory
 import rclpy
 from std_srvs.srv import Trigger
 from ackermann_msgs.msg import AckermannDriveStamped
+from eufs_msgs.msg import CanState
 
 
 class EUFSRobotSteeringGUI(Plugin):
@@ -201,6 +202,10 @@ class EUFSRobotSteeringGUI(Plugin):
             Trigger, "/race_car_model/command_mode")
         self.command_mode = self.request_command_mode()
 
+        # Subscription to get the current state of the state machine
+        self.state_sub = self.node.create_subscription(
+            CanState, "/ros_can/state", self.stateCallback, 10)
+
         # Configure default maximum slider value
         default_vel_range = 5.00
         default_acc_range = 1.00
@@ -244,6 +249,8 @@ class EUFSRobotSteeringGUI(Plugin):
             self._on_parameter_changed)
         self._update_parameter_timer.start(100)
         self.zero_cmd_sent = False
+
+        self.topic = "/cmd"
 
     def request_command_mode(self):
         """Requests command mode from race_car_model"""
@@ -495,3 +502,11 @@ class EUFSRobotSteeringGUI(Plugin):
             instance_settings, 'w_min',
             self._widget.min_angular_double_spin_box.value())
         self._widget.min_angular_double_spin_box.setValue(float(value))
+
+    def stateCallback(self, msg):
+        if (msg.ami_state == CanState.AMI_MANUAL or msg.ami_state == CanState.AMI_NOT_SELECTED) and self.topic != "/cmd":
+            self._widget.topic_line_edit.setText("/cmd")
+            self._on_topic_set()
+        elif (msg.ami_state != CanState.AMI_MANUAL and msg.ami_state != CanState.AMI_NOT_SELECTED) and self.topic == "/cmd":
+            self._widget.topic_line_edit.setText("/auto_control")
+            self._on_topic_set()

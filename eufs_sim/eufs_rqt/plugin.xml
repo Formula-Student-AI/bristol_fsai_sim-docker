@@ -29,4 +29,21 @@
       <statustip>Controls the car using AckermannDriveStamped messages</statustip>
     </qtgui>
   </class>
+  <class name="TopicFrequencyMonitor"
+         type="eufs_rqt.topic_frequency_monitor.TopicFrequencyMonitor"
+         base_class_type="rqt_gui_py::Plugin">
+    <description>
+      Monitors the frequency of specified ROS topics.
+    </description>
+    <qtgui>
+      <group>
+        <label>Bristol FSAI</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to Bristol FSAI</statustip>
+      </group>
+      <label>Topic Frequency Monitor</label>
+      <icon type="theme">utilities-system-monitor</icon>
+      <statustip>Monitors the frequency of specified ROS topics.</statustip>
+    </qtgui>
+  </class>
 </library>

@@ -9,7 +9,9 @@ setup(
     package_dir={'': 'src'},
     data_files=[
         ('share/' + package_name + '/config', [
-            'config/eufs_sim.perspective'
+            'config/eufs_sim.perspective',
+            'config/topics_frequency.perspective',
+            'config/topics_frequency_config.yaml'
         ]),
         ('share/' + package_name + '/resource', [
             'resource/EUFSRobotSteeringGUI.ui',

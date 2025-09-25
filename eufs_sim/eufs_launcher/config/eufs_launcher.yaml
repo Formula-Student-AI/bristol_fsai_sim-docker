@@ -66,7 +66,7 @@ eufs_launcher:
       priority: 2
       name: "Perception_Checkbox"
       label: "Use Simulated Perception"
-      checked_on_default: Yes
+      checked_on_default: No
       parameter_triggering:
         # Note that this is working as intended - "no_perception" means
         # No real perception!  In which case we use the simulated perception.
@@ -99,3 +99,12 @@ eufs_launcher:
       parameter_triggering:
         if_on: { "pub_ground_truth:=true" }
         if_off: { "pub_ground_truth:=false" }
+
+    bristol_fsai_debug:
+      priority: 6
+      name: "bristol_fsai_debug_Checkbox"
+      label: "bristol_fsai_debug"
+      checked_on_default: No
+      parameter_triggering:
+        if_on: { "bristol_fsai_debug:=true" }
+        if_off: { "bristol_fsai_debug:=false" }
