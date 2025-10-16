@@ -19,7 +19,8 @@ Control::Control() : Node("control") {
 
   // cone location subscriber
   cone_sub = this->create_subscription<eufs_msgs::msg::ConeArrayWithCovariance>(
-    "/perception/cones", 10, std::bind(&Control::coneCallback, this, std::placeholders::_1)
+    // for perception system cone data use: "/perception/cones"
+    "/cones", 10, std::bind(&Control::coneCallback, this, std::placeholders::_1)
   );
 
   // odometry subscriber
