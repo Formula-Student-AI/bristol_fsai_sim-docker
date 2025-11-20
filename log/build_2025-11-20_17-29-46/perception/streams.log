@@ -1,0 +1,33 @@
+[3.124s] Invoking command in '/bristol_fsai_sim-docker/build/perception': PYTHONPATH=/bristol_fsai_sim-docker/build/perception/prefix_override:/bristol_fsai_sim-docker/install/perception/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /bristol_fsai_sim-docker/build/perception/build --no-deps install_data
+[3.932s] running develop
+[4.355s] running egg_info
+[4.355s] creating perception.egg-info
+[4.355s] writing perception.egg-info/PKG-INFO
+[4.356s] writing dependency_links to perception.egg-info/dependency_links.txt
+[4.358s] writing entry points to perception.egg-info/entry_points.txt
+[4.358s] writing requirements to perception.egg-info/requires.txt
+[4.359s] writing top-level names to perception.egg-info/top_level.txt
+[4.369s] writing manifest file 'perception.egg-info/SOURCES.txt'
+[4.467s] reading manifest file 'perception.egg-info/SOURCES.txt'
+[4.475s] writing manifest file 'perception.egg-info/SOURCES.txt'
+[4.590s] running build_ext
+[4.591s] Creating /bristol_fsai_sim-docker/install/perception/lib/python3.8/site-packages/site.py
+[4.597s] Creating /bristol_fsai_sim-docker/install/perception/lib/python3.8/site-packages/perception.egg-link (link to .)
+[4.601s] Installing ConePositionEstimator script to /bristol_fsai_sim-docker/install/perception/lib/perception
+[4.601s] Installing YOLONode script to /bristol_fsai_sim-docker/install/perception/lib/perception
+[4.602s] 
+[4.602s] Installed /bristol_fsai_sim-docker/build/perception
+[4.602s] running install_data
+[4.607s] creating /bristol_fsai_sim-docker/install/perception/share/ament_index
+[4.607s] creating /bristol_fsai_sim-docker/install/perception/share/ament_index/resource_index
+[4.607s] creating /bristol_fsai_sim-docker/install/perception/share/ament_index/resource_index/packages
+[4.608s] copying resource/perception -> /bristol_fsai_sim-docker/install/perception/share/ament_index/resource_index/packages
+[4.608s] copying package.xml -> /bristol_fsai_sim-docker/install/perception/share/perception
+[4.608s] creating /bristol_fsai_sim-docker/install/perception/share/perception/models
+[4.609s] copying perception/models/yolov11n_640.pt -> /bristol_fsai_sim-docker/install/perception/share/perception/models
+[4.651s] copying perception/models/yolov11s_1024_motion_blur.pt -> /bristol_fsai_sim-docker/install/perception/share/perception/models
+[4.717s] copying perception/models/yolov5n_640.pt -> /bristol_fsai_sim-docker/install/perception/share/perception/models
+[4.717s] copying perception/models/yolov11s_1024.pt -> /bristol_fsai_sim-docker/install/perception/share/perception/models
+[4.726s] creating /bristol_fsai_sim-docker/install/perception/share/perception/config
+[4.727s] copying config/perception_params.yaml -> /bristol_fsai_sim-docker/install/perception/share/perception/config
+[4.820s] Invoked command in '/bristol_fsai_sim-docker/build/perception' returned '0': PYTHONPATH=/bristol_fsai_sim-docker/build/perception/prefix_override:/bristol_fsai_sim-docker/install/perception/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /bristol_fsai_sim-docker/build/perception/build --no-deps install_data

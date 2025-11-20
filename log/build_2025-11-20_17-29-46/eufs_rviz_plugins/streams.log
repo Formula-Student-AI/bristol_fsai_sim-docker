@@ -1,0 +1,122 @@
+[0.601s] Invoking command in '/bristol_fsai_sim-docker/build/eufs_rviz_plugins': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /bristol_fsai_sim-docker/eufs_rviz_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/bristol_fsai_sim-docker/install/eufs_rviz_plugins
+[0.771s] -- The C compiler identification is GNU 9.4.0
+[0.955s] -- The CXX compiler identification is GNU 9.4.0
+[0.967s] -- Check for working C compiler: /usr/bin/cc
+[1.208s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.214s] -- Detecting C compiler ABI info
+[1.417s] -- Detecting C compiler ABI info - done
+[1.461s] -- Detecting C compile features
+[1.461s] -- Detecting C compile features - done
+[1.471s] -- Check for working CXX compiler: /usr/bin/c++
+[1.712s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.716s] -- Detecting CXX compiler ABI info
+[1.961s] -- Detecting CXX compiler ABI info - done
+[2.001s] -- Detecting CXX compile features
+[2.002s] -- Detecting CXX compile features - done
+[2.018s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[2.087s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.091s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.260s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.372s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[2.384s] -- Found pluginlib: 5.0.1 (/opt/ros/galactic/share/pluginlib/cmake)
+[2.681s] -- Found rviz_common: 8.5.2 (/opt/ros/galactic/share/rviz_common/cmake)
+[2.803s] -- Setting OGRE_DIR to: '/opt/ros/galactic/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.814s] -- Found OGRE
+[2.816s] --   static     : OFF
+[2.817s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.817s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.817s] --   media      : /opt/ros/galactic/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.818s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.818s] -- OGRE_LIBRARY_DIRS: /opt/ros/galactic/opt/rviz_ogre_vendor/lib
+[2.818s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.818s] -- OGRE_PLUGIN_DIR: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/OGRE
+[2.820s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.820s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.821s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.821s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.893s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.909s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[3.190s] -- Found X11: /usr/include   
+[3.195s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.430s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.430s] -- Looking for gethostbyname
+[3.630s] -- Looking for gethostbyname - found
+[3.631s] -- Looking for connect
+[3.853s] -- Looking for connect - found
+[3.854s] -- Looking for remove
+[4.053s] -- Looking for remove - found
+[4.053s] -- Looking for shmat
+[4.251s] -- Looking for shmat - found
+[4.251s] -- Looking for IceConnectionNumber in ICE
+[4.496s] -- Looking for IceConnectionNumber in ICE - found
+[4.501s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[4.501s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[4.528s] -- library: libassimp.so.5
+[4.855s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.938s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.969s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[5.397s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.542s] -- Found FastRTPS: /opt/ros/galactic/include  
+[5.895s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.418s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[6.426s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[6.484s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[6.486s] -- Looking for pthread.h
+[6.691s] -- Looking for pthread.h - found
+[6.692s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.888s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.888s] -- Looking for pthread_create in pthreads
+[7.040s] -- Looking for pthread_create in pthreads - not found
+[7.040s] -- Looking for pthread_create in pthread
+[7.226s] -- Looking for pthread_create in pthread - found
+[7.229s] -- Found Threads: TRUE  
+[8.051s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[9.751s] -- Found rviz_default_plugins: 8.5.2 (/opt/ros/galactic/share/rviz_default_plugins/cmake)
+[11.866s] -- Found eufs_msgs: 2.0.0 (/bristol_fsai_sim-docker/install/eufs_msgs/share/eufs_msgs/cmake)
+[12.587s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[12.861s] -- Configuring done
+[12.957s] -- Generating done
+[12.960s] -- Build files have been written to: /bristol_fsai_sim-docker/build/eufs_rviz_plugins
+[12.993s] Invoked command in '/bristol_fsai_sim-docker/build/eufs_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /bristol_fsai_sim-docker/eufs_rviz_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/bristol_fsai_sim-docker/install/eufs_rviz_plugins
+[12.994s] Invoking command in '/bristol_fsai_sim-docker/build/eufs_rviz_plugins': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /bristol_fsai_sim-docker/build/eufs_rviz_plugins -- -j8 -l8
+[13.156s] [ 14%] [34m[1mGenerating include/eufs_rviz_plugins/displays/waypoint_array_stamped/moc_waypoint_array_stamped_display.cpp[0m
+[13.165s] [ 28%] [34m[1mGenerating include/eufs_rviz_plugins/displays/cone_array_with_covariance/moc_cone_array_with_covariance_display.cpp[0m
+[13.240s] [35m[1mScanning dependencies of target eufs_rviz_plugins[0m
+[14.461s] [ 42%] [32mBuilding CXX object CMakeFiles/eufs_rviz_plugins.dir/include/eufs_rviz_plugins/displays/cone_array_with_covariance/moc_cone_array_with_covariance_display.cpp.o[0m
+[14.467s] [ 57%] [32mBuilding CXX object CMakeFiles/eufs_rviz_plugins.dir/include/eufs_rviz_plugins/displays/waypoint_array_stamped/moc_waypoint_array_stamped_display.cpp.o[0m
+[41.109s] [ 71%] [32mBuilding CXX object CMakeFiles/eufs_rviz_plugins.dir/src/eufs_rviz_plugins/displays/waypoint_array_stamped/waypoint_array_stamped_display.cpp.o[0m
+[64.972s] [ 85%] [32mBuilding CXX object CMakeFiles/eufs_rviz_plugins.dir/src/eufs_rviz_plugins/displays/cone_array_with_covariance/cone_array_with_covariance_display.cpp.o[0m
+[94.664s] [100%] [32m[1mLinking CXX shared library libeufs_rviz_plugins.so[0m
+[99.104s] [100%] Built target eufs_rviz_plugins
+[99.136s] Invoked command in '/bristol_fsai_sim-docker/build/eufs_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /bristol_fsai_sim-docker/build/eufs_rviz_plugins -- -j8 -l8
+[99.207s] Invoking command in '/bristol_fsai_sim-docker/build/eufs_rviz_plugins': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /bristol_fsai_sim-docker/build/eufs_rviz_plugins
+[99.228s] -- Install configuration: ""
+[99.230s] -- Execute custom install script
+[99.231s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/icons/classes/ConeArrayWithCovariance.png
+[99.255s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/meshes/big_cone.dae
+[99.275s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/meshes/cone.dae
+[99.293s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins//plugins.xml
+[99.313s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/eufs_rviz_plugins
+[99.340s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/eufs_rviz_plugins
+[99.361s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/environment/ament_prefix_path.sh
+[99.379s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/environment/ament_prefix_path.dsv
+[99.395s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/environment/path.sh
+[99.419s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/environment/path.dsv
+[99.440s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/local_setup.bash
+[99.461s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/local_setup.sh
+[99.479s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/local_setup.zsh
+[99.496s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/local_setup.dsv
+[99.516s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/package.dsv
+[99.540s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/ament_index/resource_index/packages/eufs_rviz_plugins
+[99.563s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/eufs_rviz_plugins
+[99.581s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[99.598s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[99.623s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[99.645s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/cmake/eufs_rviz_pluginsConfig.cmake
+[99.668s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/cmake/eufs_rviz_pluginsConfig-version.cmake
+[99.686s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/package.xml
+[99.703s] -- Installing: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/lib/libeufs_rviz_plugins.so
+[99.727s] -- Set runtime path of "/bristol_fsai_sim-docker/install/eufs_rviz_plugins/lib/libeufs_rviz_plugins.so" to ""
+[99.727s] -- Installing: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/cmake/export_eufs_rviz_pluginsExport.cmake
+[99.728s] -- Installing: /bristol_fsai_sim-docker/install/eufs_rviz_plugins/share/eufs_rviz_plugins/cmake/export_eufs_rviz_pluginsExport-noconfig.cmake
+[99.737s] Invoked command in '/bristol_fsai_sim-docker/build/eufs_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /bristol_fsai_sim-docker/build/eufs_rviz_plugins

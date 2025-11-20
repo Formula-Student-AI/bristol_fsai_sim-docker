@@ -1,0 +1,130 @@
+[3.290s] Invoking command in '/bristol_fsai_sim-docker/build/eufs_tracks': PYTHONPATH=/bristol_fsai_sim-docker/build/eufs_tracks/prefix_override:/bristol_fsai_sim-docker/install/eufs_tracks/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /bristol_fsai_sim-docker/build/eufs_tracks/build --no-deps install_data
+[4.079s] running develop
+[4.446s] running egg_info
+[4.447s] creating eufs_tracks.egg-info
+[4.452s] writing eufs_tracks.egg-info/PKG-INFO
+[4.455s] writing dependency_links to eufs_tracks.egg-info/dependency_links.txt
+[4.456s] writing entry points to eufs_tracks.egg-info/entry_points.txt
+[4.462s] writing requirements to eufs_tracks.egg-info/requires.txt
+[4.466s] writing top-level names to eufs_tracks.egg-info/top_level.txt
+[4.467s] writing manifest file 'eufs_tracks.egg-info/SOURCES.txt'
+[4.578s] reading manifest file 'eufs_tracks.egg-info/SOURCES.txt'
+[4.584s] writing manifest file 'eufs_tracks.egg-info/SOURCES.txt'
+[4.719s] running build_ext
+[4.724s] Creating /bristol_fsai_sim-docker/install/eufs_tracks/lib/python3.8/site-packages/site.py
+[4.726s] Creating /bristol_fsai_sim-docker/install/eufs_tracks/lib/python3.8/site-packages/eufs-tracks.egg-link (link to .)
+[4.731s] Installing eufs_tracks_converter script to /bristol_fsai_sim-docker/install/eufs_tracks/lib/eufs_tracks
+[4.733s] Installing eufs_tracks_generator script to /bristol_fsai_sim-docker/install/eufs_tracks/lib/eufs_tracks
+[4.735s] 
+[4.736s] Installed /bristol_fsai_sim-docker/build/eufs_tracks
+[4.736s] running install_data
+[4.736s] copying package.xml -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks
+[4.736s] copying plugin.xml -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks
+[4.745s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/ament_index
+[4.753s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/ament_index/resource_index
+[4.754s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/ament_index/resource_index/packages
+[4.757s] copying resource/eufs_tracks -> /bristol_fsai_sim-docker/install/eufs_tracks/share/ament_index/resource_index/packages
+[4.766s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/csv
+[4.767s] copying csv/garden_light.csv -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/csv
+[4.767s] copying csv/rectangle.csv -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/csv
+[4.768s] copying csv/boa_constrictor.csv -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/csv
+[4.768s] copying csv/hairpins_increasing_difficulty.csv -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/csv
+[4.768s] copying csv/bone.csv -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/csv
+[4.776s] copying csv/its_a_mess.csv -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/csv
+[4.776s] copying csv/small_track.csv -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/csv
+[4.777s] copying csv/comp_2021.csv -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/csv
+[4.777s] copying csv/skidpad.csv -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/csv
+[4.777s] copying csv/acceleration.csv -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/csv
+[4.777s] copying csv/peanut.csv -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/csv
+[4.777s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/image
+[4.777s] copying image/skidpad.png -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/image
+[4.778s] copying image/comp_2021.png -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/image
+[4.778s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/launch
+[4.778s] copying launch/empty.launch -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/launch
+[4.778s] copying launch/garden_light.launch -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/launch
+[4.778s] copying launch/its_a_mess.launch -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/launch
+[4.778s] copying launch/comp_2021.launch -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/launch
+[4.779s] copying launch/skidpad.launch -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/launch
+[4.779s] copying launch/small_track.launch -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/launch
+[4.779s] copying launch/rectangle.launch -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/launch
+[4.779s] copying launch/peanut.launch -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/launch
+[4.779s] copying launch/acceleration.launch -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/launch
+[4.779s] copying launch/hairpins_increasing_difficulty.launch -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/launch
+[4.780s] copying launch/eufs_track_generator.launch.py -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/launch
+[4.784s] copying launch/boa_constrictor.launch -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/launch
+[4.784s] copying launch/blacklist.txt -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/launch
+[4.784s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/materials
+[4.784s] copying materials/asphalt.jpg -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/materials
+[4.788s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/meshes
+[4.789s] copying meshes/MonkeyNoise.dae -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/meshes
+[4.789s] copying meshes/NoiseCube.dae -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/meshes
+[4.789s] copying meshes/cone.dae -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/meshes
+[4.790s] copying meshes/cone_big.dae -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/meshes
+[4.790s] copying meshes/cone_blue.dae -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/meshes
+[4.790s] copying meshes/cone_yellow.dae -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/meshes
+[4.790s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/worlds
+[4.791s] copying worlds/small_track.world -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/worlds
+[4.791s] copying worlds/garden_light.world -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/worlds
+[4.791s] copying worlds/rectangle.world -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/worlds
+[4.791s] copying worlds/its_a_mess.world -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/worlds
+[4.791s] copying worlds/boa_constrictor.world -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/worlds
+[4.791s] copying worlds/peanut.world -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/worlds
+[4.792s] copying worlds/comp_2021.world -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/worlds
+[4.792s] copying worlds/acceleration.world -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/worlds
+[4.792s] copying worlds/skidpad.world -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/worlds
+[4.792s] copying worlds/hairpins_increasing_difficulty.world -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/worlds
+[4.793s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/resource
+[4.793s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/resource/randgen_model_template
+[4.793s] copying resource/randgen_model_template/model.config -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/resource/randgen_model_template
+[4.793s] copying resource/randgen_model_template/model.sdf -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/resource/randgen_model_template
+[4.793s] copying resource/noiseFiles.txt -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/resource
+[4.794s] copying resource/randgen_launch_template -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/resource
+[4.801s] copying resource/randgen_world_template -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/resource
+[4.802s] copying resource/conversion_tool.ui -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/resource
+[4.802s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models
+[4.802s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/orange_cone
+[4.802s] copying models/orange_cone/model.config -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/orange_cone
+[4.803s] copying models/orange_cone/model.sdf -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/orange_cone
+[4.803s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/yellow_cone
+[4.803s] copying models/yellow_cone/model.config -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/yellow_cone
+[4.804s] copying models/yellow_cone/model.sdf -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/yellow_cone
+[4.804s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/ground_plane
+[4.805s] copying models/ground_plane/model.config -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/ground_plane
+[4.805s] copying models/ground_plane/model.sdf -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/ground_plane
+[4.805s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/blue_cone
+[4.805s] copying models/blue_cone/model.config -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/blue_cone
+[4.805s] copying models/blue_cone/model.sdf -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/blue_cone
+[4.806s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/its_a_mess
+[4.806s] copying models/its_a_mess/model.config -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/its_a_mess
+[4.806s] copying models/its_a_mess/model.sdf -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/its_a_mess
+[4.806s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/skidpad
+[4.806s] copying models/skidpad/model.config -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/skidpad
+[4.807s] copying models/skidpad/model.sdf -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/skidpad
+[4.811s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/rectangle
+[4.812s] copying models/rectangle/model.config -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/rectangle
+[4.819s] copying models/rectangle/model.sdf -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/rectangle
+[4.822s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/hairpins_increasing_difficulty
+[4.822s] copying models/hairpins_increasing_difficulty/model.config -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/hairpins_increasing_difficulty
+[4.822s] copying models/hairpins_increasing_difficulty/model.sdf -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/hairpins_increasing_difficulty
+[4.823s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/boa_constrictor
+[4.824s] copying models/boa_constrictor/model.config -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/boa_constrictor
+[4.824s] copying models/boa_constrictor/model.sdf -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/boa_constrictor
+[4.824s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/peanut
+[4.824s] copying models/peanut/model.config -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/peanut
+[4.825s] copying models/peanut/model.sdf -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/peanut
+[4.825s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/big_cone
+[4.825s] copying models/big_cone/model.config -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/big_cone
+[4.825s] copying models/big_cone/model.sdf -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/big_cone
+[4.826s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/comp_2021
+[4.826s] copying models/comp_2021/model.config -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/comp_2021
+[4.827s] copying models/comp_2021/model.sdf -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/comp_2021
+[4.827s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/small_track
+[4.827s] copying models/small_track/model.config -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/small_track
+[4.827s] copying models/small_track/model.sdf -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/small_track
+[4.828s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/acceleration
+[4.828s] copying models/acceleration/model.config -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/acceleration
+[4.828s] copying models/acceleration/model.sdf -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/acceleration
+[4.830s] creating /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/garden_light
+[4.830s] copying models/garden_light/model.config -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/garden_light
+[4.830s] copying models/garden_light/model.sdf -> /bristol_fsai_sim-docker/install/eufs_tracks/share/eufs_tracks/models/garden_light
+[4.858s] Invoked command in '/bristol_fsai_sim-docker/build/eufs_tracks' returned '0': PYTHONPATH=/bristol_fsai_sim-docker/build/eufs_tracks/prefix_override:/bristol_fsai_sim-docker/install/eufs_tracks/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /bristol_fsai_sim-docker/build/eufs_tracks/build --no-deps install_data

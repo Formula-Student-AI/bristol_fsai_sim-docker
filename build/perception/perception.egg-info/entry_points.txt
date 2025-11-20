@@ -1,0 +1,4 @@
+[console_scripts]
+ConePositionEstimator = perception.ConePositionEstimator:main
+YOLONode = perception.YOLONode:main
+

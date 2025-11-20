@@ -1,0 +1,170 @@
+[0.064s] Invoking command in '/bristol_fsai_sim-docker/build/eufs_plugins': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_models:/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_models:/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_models/lib:/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /bristol_fsai_sim-docker/eufs_sim/eufs_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/bristol_fsai_sim-docker/install/eufs_plugins
+[0.261s] -- The C compiler identification is GNU 9.4.0
+[0.518s] -- The CXX compiler identification is GNU 9.4.0
+[0.532s] -- Check for working C compiler: /usr/bin/cc
+[0.755s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.762s] -- Detecting C compiler ABI info
+[1.075s] -- Detecting C compiler ABI info - done
+[1.176s] -- Detecting C compile features
+[1.176s] -- Detecting C compile features - done
+[1.185s] -- Check for working CXX compiler: /usr/bin/c++
+[1.456s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.461s] -- Detecting CXX compiler ABI info
+[1.797s] -- Detecting CXX compiler ABI info - done
+[1.846s] -- Detecting CXX compile features
+[1.852s] -- Detecting CXX compile features - done
+[1.862s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.949s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.951s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.120s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.292s] -- Found gazebo_dev: 3.5.2 (/opt/ros/galactic/share/gazebo_dev/cmake)
+[2.338s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.358s] -- Checking for module 'bullet>=2.82'
+[2.445s] --   Found bullet, version 2.88
+[2.967s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[3.203s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[3.454s] -- Found assimp: /usr/include (found version "5.0.0") 
+[3.657s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[5.032s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[5.201s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[5.224s] -- Looking for ignition-math6 -- found version 6.13.0
+[5.269s] -- Searching for dependencies of ignition-math6
+[5.288s] -- Looking for OGRE...
+[5.302s] -- OGRE_PREFIX_WATCH changed.
+[5.329s] -- Checking for module 'OGRE'
+[5.395s] --   Found OGRE, version 1.9.0
+[5.566s] -- Found Ogre Ghadamon (1.9.0)
+[5.618s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[5.693s] -- Looking for OGRE_Paging...
+[5.737s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[5.738s] -- Looking for OGRE_Terrain...
+[5.756s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[5.757s] -- Looking for OGRE_Property...
+[5.776s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[5.778s] -- Looking for OGRE_RTShaderSystem...
+[5.797s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[5.798s] -- Looking for OGRE_Volume...
+[5.822s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[5.823s] -- Looking for OGRE_Overlay...
+[5.845s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[6.320s] -- Looking for ignition-math6 -- found version 6.13.0
+[6.337s] -- Looking for ignition-transport8 -- found version 8.3.0
+[6.360s] -- Searching for dependencies of ignition-transport8
+[6.518s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[6.554s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[6.573s] -- Checking for module 'libzmq >= 4'
+[6.694s] --   Found libzmq , version 4.3.2
+[6.968s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[7.022s] -- Checking for module 'uuid'
+[7.081s] --   Found uuid, version 2.34.0
+[7.271s] -- Found UUID: TRUE  
+[7.283s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[7.285s] -- Searching for dependencies of ignition-msgs5
+[7.494s] -- Looking for ignition-math6 -- found version 6.13.0
+[7.552s] -- Checking for module 'tinyxml2'
+[7.678s] --   Found tinyxml2, version 6.2.0
+[8.002s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[8.018s] -- Looking for ignition-common3 -- found version 3.14.2
+[8.020s] -- Searching for dependencies of ignition-common3
+[8.028s] -- Looking for dlfcn.h - found
+[8.033s] -- Looking for libdl - found
+[8.056s] -- Found DL: TRUE  
+[8.118s] -- Searching for <ignition-common3> component [graphics]
+[8.131s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[8.131s] -- Searching for dependencies of ignition-common3-graphics
+[8.132s] -- Looking for ignition-math6 -- found version 6.13.0
+[8.155s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[8.156s] -- Searching for dependencies of ignition-fuel_tools4
+[8.609s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[8.724s] -- Checking for module 'jsoncpp'
+[8.789s] --   Found jsoncpp, version 1.7.4
+[8.965s] -- Found JSONCPP: TRUE  
+[8.993s] -- Checking for module 'libzip'
+[9.059s] --   Found libzip, version 1.5.1
+[9.225s] -- Found ZIP: TRUE  
+[9.228s] -- Looking for ignition-common3 -- found version 3.14.2
+[9.230s] -- Looking for ignition-math6 -- found version 6.13.0
+[9.233s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[9.241s] -- Gazebo version: 11.11
+[9.250s] -- Found gazebo_ros: 3.5.2 (/opt/ros/galactic/share/gazebo_ros/cmake)
+[9.464s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.491s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[9.882s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.978s] -- Found FastRTPS: /opt/ros/galactic/include  
+[10.401s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.712s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[10.719s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[10.788s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[10.795s] -- Found Threads: TRUE  
+[11.340s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[11.478s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[11.766s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[11.800s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[11.837s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[13.182s] -- Found eufs_msgs: 2.0.0 (/bristol_fsai_sim-docker/install/eufs_msgs/share/eufs_msgs/cmake)
+[14.338s] -- Found eufs_models: 2.0.0 (/bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/cmake)
+[14.428s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/galactic/share/ackermann_msgs/cmake)
+[14.565s] -- Found image_geometry: 3.1.3 (/opt/ros/galactic/share/image_geometry/cmake)
+[14.643s] -- Found yaml_cpp_vendor: 7.1.1 (/opt/ros/galactic/share/yaml_cpp_vendor/cmake)
+[15.301s] -- Configuring done
+[16.021s] -- Generating done
+[16.032s] -- Build files have been written to: /bristol_fsai_sim-docker/build/eufs_plugins
+[16.089s] Invoked command in '/bristol_fsai_sim-docker/build/eufs_plugins' returned '0': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_models:/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_models:/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_models/lib:/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /bristol_fsai_sim-docker/eufs_sim/eufs_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/bristol_fsai_sim-docker/install/eufs_plugins
+[16.093s] Invoking command in '/bristol_fsai_sim-docker/build/eufs_plugins': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_models:/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_models:/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_models/lib:/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /bristol_fsai_sim-docker/build/eufs_plugins -- -j8 -l8
+[16.257s] [35m[1mScanning dependencies of target gazebo_camera_cones[0m
+[17.446s] [ 11%] [32mBuilding CXX object gazebo_cone_plugins/CMakeFiles/gazebo_camera_cones.dir/src/gazebo_camera_cones.cpp.o[0m
+[56.333s] [ 22%] [32m[1mLinking CXX shared library libgazebo_camera_cones.so[0m
+[57.767s] [ 22%] Built target gazebo_camera_cones
+[57.796s] [35m[1mScanning dependencies of target gazebo_simulate_bounding_boxes[0m
+[58.186s] [ 33%] [32mBuilding CXX object gazebo_simulate_bounding_boxes/CMakeFiles/gazebo_simulate_bounding_boxes.dir/src/gazebo_simulate_bounding_boxes.cpp.o[0m
+[97.274s] [ 44%] [32m[1mLinking CXX shared library libgazebo_simulate_bounding_boxes.so[0m
+[99.409s] [ 44%] Built target gazebo_simulate_bounding_boxes
+[99.437s] [35m[1mScanning dependencies of target gazebo_race_car_model[0m
+[99.732s] [ 55%] [32mBuilding CXX object gazebo_race_car_model/CMakeFiles/gazebo_race_car_model.dir/src/gazebo_ros_race_car_model.cpp.o[0m
+[139.119s] [ 66%] [32mBuilding CXX object gazebo_race_car_model/CMakeFiles/gazebo_race_car_model.dir/src/state_machine.cpp.o[0m
+[156.656s] [ 77%] [32m[1mLinking CXX shared library libgazebo_race_car_model.so[0m
+[159.583s] [ 77%] Built target gazebo_race_car_model
+[159.605s] [35m[1mScanning dependencies of target gazebo_ground_truth_cones[0m
+[159.866s] [ 88%] [32mBuilding CXX object gazebo_cone_plugins/CMakeFiles/gazebo_ground_truth_cones.dir/src/gazebo_ground_truth_cones.cpp.o[0m
+[191.184s] [100%] [32m[1mLinking CXX shared library libgazebo_ground_truth_cones.so[0m
+[192.561s] [100%] Built target gazebo_ground_truth_cones
+[192.583s] Invoked command in '/bristol_fsai_sim-docker/build/eufs_plugins' returned '0': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_models:/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_models:/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_models/lib:/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /bristol_fsai_sim-docker/build/eufs_plugins -- -j8 -l8
+[192.654s] Invoking command in '/bristol_fsai_sim-docker/build/eufs_plugins': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_models:/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_models:/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_models/lib:/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /bristol_fsai_sim-docker/build/eufs_plugins
+[192.674s] -- Install configuration: ""
+[192.675s] -- Execute custom install script
+[192.676s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/urdf/eufs_plugins.gazebo.xacro
+[192.694s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/environment/library_path.sh
+[192.714s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/environment/library_path.dsv
+[192.739s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/lib/libgazebo_ground_truth_cones.so
+[192.764s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/lib/libgazebo_camera_cones.so
+[192.781s] -- Up-to-date symlink: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/environment/library_path.sh
+[192.782s] -- Up-to-date symlink: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/environment/library_path.dsv
+[192.783s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/lib/libgazebo_race_car_model.so
+[192.800s] -- Up-to-date symlink: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/environment/library_path.sh
+[192.800s] -- Up-to-date symlink: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/environment/library_path.dsv
+[192.801s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/lib/libgazebo_simulate_bounding_boxes.so
+[192.823s] -- Up-to-date symlink: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/environment/library_path.sh
+[192.824s] -- Up-to-date symlink: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/environment/library_path.dsv
+[192.825s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/ament_index/resource_index/package_run_dependencies/eufs_plugins
+[192.848s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/ament_index/resource_index/parent_prefix_path/eufs_plugins
+[192.866s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/environment/ament_prefix_path.sh
+[192.885s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/environment/ament_prefix_path.dsv
+[192.903s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/environment/path.sh
+[192.926s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/environment/path.dsv
+[192.948s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/local_setup.bash
+[192.967s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/local_setup.sh
+[192.985s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/local_setup.zsh
+[193.004s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/local_setup.dsv
+[193.027s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/package.dsv
+[193.050s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/ament_index/resource_index/packages/eufs_plugins
+[193.069s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[193.086s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[193.104s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[193.128s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/cmake/eufs_pluginsConfig.cmake
+[193.149s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/cmake/eufs_pluginsConfig-version.cmake
+[193.167s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/package.xml
+[193.185s] -- Installing: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/config
+[193.185s] -- Installing: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/config/cone_recolor.yaml
+[193.185s] -- Up-to-date: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/config
+[193.185s] -- Installing: /bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/config/boundingBoxes.yaml
+[193.193s] Invoked command in '/bristol_fsai_sim-docker/build/eufs_plugins' returned '0': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_models:/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_models:/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_models/lib:/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /bristol_fsai_sim-docker/build/eufs_plugins

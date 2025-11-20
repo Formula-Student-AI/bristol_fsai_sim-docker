@@ -1,0 +1,34 @@
+[1.512s] Invoking command in '/bristol_fsai_sim-docker/build/eufs_launcher': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_tracks:${AMENT_PREFIX_PATH} PYTHONPATH=/bristol_fsai_sim-docker/build/eufs_launcher/prefix_override:/bristol_fsai_sim-docker/install/eufs_launcher/lib/python3.8/site-packages:/bristol_fsai_sim-docker/build/eufs_tracks:/bristol_fsai_sim-docker/install/eufs_tracks/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /bristol_fsai_sim-docker/build/eufs_launcher/build --no-deps install_data
+[2.003s] running develop
+[2.250s] running egg_info
+[2.251s] creating src/eufs_launcher.egg-info
+[2.251s] writing src/eufs_launcher.egg-info/PKG-INFO
+[2.253s] writing dependency_links to src/eufs_launcher.egg-info/dependency_links.txt
+[2.254s] writing requirements to src/eufs_launcher.egg-info/requires.txt
+[2.254s] writing top-level names to src/eufs_launcher.egg-info/top_level.txt
+[2.256s] writing manifest file 'src/eufs_launcher.egg-info/SOURCES.txt'
+[2.327s] reading manifest file 'src/eufs_launcher.egg-info/SOURCES.txt'
+[2.328s] writing manifest file 'src/eufs_launcher.egg-info/SOURCES.txt'
+[2.396s] running build_ext
+[2.397s] Creating /bristol_fsai_sim-docker/install/eufs_launcher/lib/python3.8/site-packages/site.py
+[2.403s] Creating /bristol_fsai_sim-docker/install/eufs_launcher/lib/python3.8/site-packages/eufs-launcher.egg-link (link to src)
+[2.405s] Installing eufs_launcher script to /bristol_fsai_sim-docker/install/eufs_launcher/lib/eufs_launcher
+[2.406s] 
+[2.407s] Installed /bristol_fsai_sim-docker/build/eufs_launcher/src
+[2.407s] running install_data
+[2.407s] copying launch/hardware.launch.py -> /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher
+[2.408s] copying launch/bristol_fsai.launch.py -> /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher
+[2.410s] copying launch/eufs_launcher.launch.py -> /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher
+[2.410s] copying launch/simulation.launch.py -> /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher
+[2.410s] creating /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher/config
+[2.410s] copying config/default.rviz -> /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher/config
+[2.410s] copying config/eufs_launcher.yaml -> /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher/config
+[2.411s] creating /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher/resource
+[2.411s] copying resource/launcher.ui -> /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher/resource
+[2.411s] copying plugin.xml -> /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher
+[2.411s] copying package.xml -> /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher
+[2.411s] creating /bristol_fsai_sim-docker/install/eufs_launcher/share/ament_index
+[2.411s] creating /bristol_fsai_sim-docker/install/eufs_launcher/share/ament_index/resource_index
+[2.412s] creating /bristol_fsai_sim-docker/install/eufs_launcher/share/ament_index/resource_index/packages
+[2.412s] copying resource/eufs_launcher -> /bristol_fsai_sim-docker/install/eufs_launcher/share/ament_index/resource_index/packages
+[2.462s] Invoked command in '/bristol_fsai_sim-docker/build/eufs_launcher' returned '0': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_tracks:${AMENT_PREFIX_PATH} PYTHONPATH=/bristol_fsai_sim-docker/build/eufs_launcher/prefix_override:/bristol_fsai_sim-docker/install/eufs_launcher/lib/python3.8/site-packages:/bristol_fsai_sim-docker/build/eufs_tracks:/bristol_fsai_sim-docker/install/eufs_tracks/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /bristol_fsai_sim-docker/build/eufs_launcher/build --no-deps install_data

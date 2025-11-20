@@ -1,0 +1,2 @@
+/bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/config/cone_recolor.yaml
+/bristol_fsai_sim-docker/install/eufs_plugins/share/eufs_plugins/config/boundingBoxes.yaml

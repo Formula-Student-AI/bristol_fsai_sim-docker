@@ -1,0 +1,1 @@
+/bristol_fsai_sim-docker/build/eufs_msgs/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/pure_pursuit_checkpoint__rosidl_typesupport_introspection_cpp.hpp

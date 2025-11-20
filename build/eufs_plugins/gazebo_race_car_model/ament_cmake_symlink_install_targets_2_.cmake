@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/bristol_fsai_sim-docker/build/eufs_plugins/gazebo_race_car_model/libgazebo_race_car_model.so" "TARGETS" "gazebo_race_car_model" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib")

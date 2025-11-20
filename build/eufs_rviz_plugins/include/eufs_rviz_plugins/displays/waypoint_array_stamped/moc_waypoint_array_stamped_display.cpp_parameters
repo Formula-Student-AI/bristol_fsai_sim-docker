@@ -1,0 +1,3 @@
+-o
+/bristol_fsai_sim-docker/build/eufs_rviz_plugins/include/eufs_rviz_plugins/displays/waypoint_array_stamped/moc_waypoint_array_stamped_display.cpp
+/bristol_fsai_sim-docker/eufs_rviz_plugins/include/eufs_rviz_plugins/displays/waypoint_array_stamped/waypoint_array_stamped_display.hpp

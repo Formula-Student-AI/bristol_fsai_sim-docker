@@ -1,0 +1,32 @@
+[0.035s] Invoking command in '/home/alan/Documents/bristol_fsai_sim-docker/build/eufs_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/alan/Documents/bristol_fsai_sim-docker/eufs_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alan/Documents/bristol_fsai_sim-docker/install/eufs_msgs
+[1.662s] -- The C compiler identification is GNU 13.3.0
+[1.663s] -- The CXX compiler identification is GNU 13.3.0
+[1.663s] -- Detecting C compiler ABI info
+[1.663s] -- Detecting C compiler ABI info - done
+[1.663s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.663s] -- Detecting C compile features
+[1.663s] -- Detecting C compile features - done
+[1.664s] -- Detecting CXX compiler ABI info
+[1.664s] -- Detecting CXX compiler ABI info - done
+[1.664s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.664s] -- Detecting CXX compile features
+[1.664s] -- Detecting CXX compile features - done
+[1.665s] -- Configuring incomplete, errors occurred!
+[1.665s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[1.665s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.665s]   has asked CMake to find a package configuration file provided by
+[1.665s]   "ament_cmake", but CMake did not find one.
+[1.665s] 
+[1.666s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.666s]   any of the following names:
+[1.666s] 
+[1.666s]     ament_cmakeConfig.cmake
+[1.666s]     ament_cmake-config.cmake
+[1.666s] 
+[1.666s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.666s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.667s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.667s]   has been installed.
+[1.667s] 
+[1.667s] [0m
+[1.670s] Invoked command in '/home/alan/Documents/bristol_fsai_sim-docker/build/eufs_msgs' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/alan/Documents/bristol_fsai_sim-docker/eufs_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alan/Documents/bristol_fsai_sim-docker/install/eufs_msgs

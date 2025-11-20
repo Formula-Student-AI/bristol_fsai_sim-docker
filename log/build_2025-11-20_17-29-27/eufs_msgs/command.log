@@ -1,0 +1,2 @@
+Invoking command in '/bristol_fsai_sim-docker/build/eufs_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /bristol_fsai_sim-docker/eufs_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/bristol_fsai_sim-docker/install/eufs_msgs
+Invoked command in '/bristol_fsai_sim-docker/build/eufs_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /bristol_fsai_sim-docker/eufs_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/bristol_fsai_sim-docker/install/eufs_msgs

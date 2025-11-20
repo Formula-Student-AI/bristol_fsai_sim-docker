@@ -1,0 +1,75 @@
+[0.136s] Invoking command in '/bristol_fsai_sim-docker/build/eufs_models': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /bristol_fsai_sim-docker/eufs_sim/eufs_models -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/bristol_fsai_sim-docker/install/eufs_models
+[0.694s] -- The C compiler identification is GNU 9.4.0
+[0.699s] -- The CXX compiler identification is GNU 9.4.0
+[0.700s] -- Check for working C compiler: /usr/bin/cc
+[0.700s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.700s] -- Detecting C compiler ABI info
+[0.785s] -- Detecting C compiler ABI info - done
+[0.852s] -- Detecting C compile features
+[0.859s] -- Detecting C compile features - done
+[0.863s] -- Check for working CXX compiler: /usr/bin/c++
+[1.117s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.124s] -- Detecting CXX compiler ABI info
+[1.357s] -- Detecting CXX compiler ABI info - done
+[1.398s] -- Detecting CXX compile features
+[1.398s] -- Detecting CXX compile features - done
+[1.406s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.476s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.476s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.640s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.754s] -- Found eufs_msgs: 2.0.0 (/bristol_fsai_sim-docker/install/eufs_msgs/share/eufs_msgs/cmake)
+[1.891s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.913s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.211s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.347s] -- Found FastRTPS: /opt/ros/galactic/include  
+[2.644s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.129s] -- Configuring done
+[4.151s] -- Generating done
+[4.155s] -- Build files have been written to: /bristol_fsai_sim-docker/build/eufs_models
+[4.171s] Invoked command in '/bristol_fsai_sim-docker/build/eufs_models' returned '0': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /bristol_fsai_sim-docker/eufs_sim/eufs_models -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/bristol_fsai_sim-docker/install/eufs_models
+[4.202s] Invoking command in '/bristol_fsai_sim-docker/build/eufs_models': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /bristol_fsai_sim-docker/build/eufs_models -- -j8 -l8
+[4.318s] [35m[1mScanning dependencies of target eufs_models[0m
+[4.355s] [ 25%] [32mBuilding CXX object CMakeFiles/eufs_models.dir/src/point_mass.cpp.o[0m
+[4.358s] [ 50%] [32mBuilding CXX object CMakeFiles/eufs_models.dir/src/dynamic_bicycle.cpp.o[0m
+[4.358s] [ 75%] [32mBuilding CXX object CMakeFiles/eufs_models.dir/src/vehicle_model.cpp.o[0m
+[6.877s] [100%] [32m[1mLinking CXX static library libeufs_models.a[0m
+[6.978s] [100%] Built target eufs_models
+[7.003s] Invoked command in '/bristol_fsai_sim-docker/build/eufs_models' returned '0': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /bristol_fsai_sim-docker/build/eufs_models -- -j8 -l8
+[7.096s] Invoking command in '/bristol_fsai_sim-docker/build/eufs_models': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /bristol_fsai_sim-docker/build/eufs_models
+[7.119s] -- Install configuration: ""
+[7.121s] -- Execute custom install script
+[7.122s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/environment/library_path.sh
+[7.151s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/environment/library_path.dsv
+[7.176s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/include/eufs_models/dynamic_bicycle.hpp
+[7.201s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/include/eufs_models/eufs_models.hpp
+[7.221s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/include/eufs_models/noise.hpp
+[7.246s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/include/eufs_models/point_mass.hpp
+[7.274s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/include/eufs_models/vehicle_input.hpp
+[7.303s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/include/eufs_models/vehicle_model.hpp
+[7.325s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/include/eufs_models/vehicle_param.hpp
+[7.344s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/include/eufs_models/vehicle_state.hpp
+[7.369s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/ament_index/resource_index/package_run_dependencies/eufs_models
+[7.394s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/ament_index/resource_index/parent_prefix_path/eufs_models
+[7.425s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/environment/ament_prefix_path.sh
+[7.454s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/environment/ament_prefix_path.dsv
+[7.484s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/environment/path.sh
+[7.507s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/environment/path.dsv
+[7.531s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/local_setup.bash
+[7.555s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/local_setup.sh
+[7.580s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/local_setup.zsh
+[7.606s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/local_setup.dsv
+[7.633s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/package.dsv
+[7.659s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/ament_index/resource_index/packages/eufs_models
+[7.684s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.709s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_libraries-extras.cmake
+[7.736s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_targets-extras.cmake
+[7.766s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.789s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/cmake/eufs_modelsConfig.cmake
+[7.813s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/cmake/eufs_modelsConfig-version.cmake
+[7.844s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/package.xml
+[7.879s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/models/models.txt
+[7.901s] -- Symlinking: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/config/noise.yaml
+[7.923s] -- Installing: /bristol_fsai_sim-docker/install/eufs_models/lib/libeufs_models.a
+[7.924s] -- Installing: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/cmake/export_eufs_modelsExport.cmake
+[7.926s] -- Installing: /bristol_fsai_sim-docker/install/eufs_models/share/eufs_models/cmake/export_eufs_modelsExport-noconfig.cmake
+[7.930s] Invoked command in '/bristol_fsai_sim-docker/build/eufs_models' returned '0': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /bristol_fsai_sim-docker/build/eufs_models

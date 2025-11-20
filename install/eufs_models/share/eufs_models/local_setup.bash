@@ -1,0 +1,1 @@
+/bristol_fsai_sim-docker/build/eufs_models/ament_cmake_environment_hooks/local_setup.bash

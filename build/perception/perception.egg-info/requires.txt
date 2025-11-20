@@ -1,0 +1,5 @@
+PyYAML
+opencv-python
+setuptools
+torch
+ultralytics

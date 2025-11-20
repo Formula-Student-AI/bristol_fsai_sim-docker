@@ -1,0 +1,90 @@
+[0.136s] Invoking command in '/bristol_fsai_sim-docker/build/control_cpp': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /bristol_fsai_sim-docker/eufs_sim/control_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/bristol_fsai_sim-docker/install/control_cpp
+[0.665s] -- The C compiler identification is GNU 9.4.0
+[0.670s] -- The CXX compiler identification is GNU 9.4.0
+[0.671s] -- Check for working C compiler: /usr/bin/cc
+[0.672s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.672s] -- Detecting C compiler ABI info
+[0.798s] -- Detecting C compiler ABI info - done
+[0.832s] -- Detecting C compile features
+[0.836s] -- Detecting C compile features - done
+[0.841s] -- Check for working CXX compiler: /usr/bin/c++
+[1.081s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.091s] -- Detecting CXX compiler ABI info
+[1.356s] -- Detecting CXX compiler ABI info - done
+[1.402s] -- Detecting CXX compile features
+[1.404s] -- Detecting CXX compile features - done
+[1.410s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.477s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.477s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.662s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.759s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.981s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.016s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.335s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.432s] -- Found FastRTPS: /opt/ros/galactic/include  
+[2.817s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.012s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.025s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.089s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.091s] -- Looking for pthread.h
+[3.299s] -- Looking for pthread.h - found
+[3.301s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.522s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.523s] -- Looking for pthread_create in pthreads
+[3.698s] -- Looking for pthread_create in pthreads - not found
+[3.698s] -- Looking for pthread_create in pthread
+[3.907s] -- Looking for pthread_create in pthread - found
+[3.910s] -- Found Threads: TRUE  
+[4.399s] -- Found eufs_msgs: 2.0.0 (/bristol_fsai_sim-docker/install/eufs_msgs/share/eufs_msgs/cmake)
+[5.600s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/galactic/share/ackermann_msgs/cmake)
+[5.849s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[6.223s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[6.273s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[6.316s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[7.184s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[7.402s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.405s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.406s] -- Configured cppcheck include dirs: /bristol_fsai_sim-docker/eufs_sim/control_cpp/include
+[7.406s] -- Configured cppcheck exclude dirs and/or files: 
+[7.408s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.408s] -- Configured cpplint exclude dirs and/or files: 
+[7.410s] -- Added test 'lint_cmake' to check CMake code style
+[7.412s] -- Added test 'uncrustify' to check C / C++ code style
+[7.412s] -- Configured uncrustify additional arguments: 
+[7.413s] -- Added test 'xmllint' to check XML markup files
+[7.425s] -- Configuring done
+[7.483s] -- Generating done
+[7.486s] -- Build files have been written to: /bristol_fsai_sim-docker/build/control_cpp
+[7.502s] Invoked command in '/bristol_fsai_sim-docker/build/control_cpp' returned '0': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /bristol_fsai_sim-docker/eufs_sim/control_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/bristol_fsai_sim-docker/install/control_cpp
+[7.509s] Invoking command in '/bristol_fsai_sim-docker/build/control_cpp': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /bristol_fsai_sim-docker/build/control_cpp -- -j8 -l8
+[7.614s] [35m[1mScanning dependencies of target control_cpp[0m
+[7.622s] [35m[1mScanning dependencies of target odometry_to_twist_converter[0m
+[7.800s] [ 20%] [32mBuilding CXX object CMakeFiles/control_cpp.dir/src/control.cpp.o[0m
+[7.800s] [ 40%] [32mBuilding CXX object CMakeFiles/odometry_to_twist_converter.dir/src/odometry_to_twist_converter.cpp.o[0m
+[7.801s] [ 60%] [32mBuilding CXX object CMakeFiles/control_cpp.dir/src/cone.cpp.o[0m
+[30.808s] [ 80%] [32m[1mLinking CXX executable odometry_to_twist_converter[0m
+[32.034s] [ 80%] Built target odometry_to_twist_converter
+[57.224s] [100%] [32m[1mLinking CXX executable control_cpp[0m
+[59.353s] [100%] Built target control_cpp
+[59.382s] Invoked command in '/bristol_fsai_sim-docker/build/control_cpp' returned '0': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /bristol_fsai_sim-docker/build/control_cpp -- -j8 -l8
+[59.453s] Invoking command in '/bristol_fsai_sim-docker/build/control_cpp': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /bristol_fsai_sim-docker/build/control_cpp
+[59.481s] -- Install configuration: ""
+[59.482s] -- Execute custom install script
+[59.482s] -- Symlinking: /bristol_fsai_sim-docker/install/control_cpp/lib/control_cpp/control_cpp
+[59.505s] -- Symlinking: /bristol_fsai_sim-docker/install/control_cpp/lib/control_cpp/odometry_to_twist_converter
+[59.525s] -- Symlinking: /bristol_fsai_sim-docker/install/control_cpp/share/ament_index/resource_index/package_run_dependencies/control_cpp
+[59.544s] -- Symlinking: /bristol_fsai_sim-docker/install/control_cpp/share/ament_index/resource_index/parent_prefix_path/control_cpp
+[59.576s] -- Symlinking: /bristol_fsai_sim-docker/install/control_cpp/share/control_cpp/environment/ament_prefix_path.sh
+[59.601s] -- Symlinking: /bristol_fsai_sim-docker/install/control_cpp/share/control_cpp/environment/ament_prefix_path.dsv
+[59.621s] -- Symlinking: /bristol_fsai_sim-docker/install/control_cpp/share/control_cpp/environment/path.sh
+[59.639s] -- Symlinking: /bristol_fsai_sim-docker/install/control_cpp/share/control_cpp/environment/path.dsv
+[59.664s] -- Symlinking: /bristol_fsai_sim-docker/install/control_cpp/share/control_cpp/local_setup.bash
+[59.691s] -- Symlinking: /bristol_fsai_sim-docker/install/control_cpp/share/control_cpp/local_setup.sh
+[59.715s] -- Symlinking: /bristol_fsai_sim-docker/install/control_cpp/share/control_cpp/local_setup.zsh
+[59.737s] -- Symlinking: /bristol_fsai_sim-docker/install/control_cpp/share/control_cpp/local_setup.dsv
+[59.761s] -- Symlinking: /bristol_fsai_sim-docker/install/control_cpp/share/control_cpp/package.dsv
+[59.787s] -- Symlinking: /bristol_fsai_sim-docker/install/control_cpp/share/ament_index/resource_index/packages/control_cpp
+[59.814s] -- Symlinking: /bristol_fsai_sim-docker/install/control_cpp/share/control_cpp/cmake/control_cppConfig.cmake
+[59.832s] -- Symlinking: /bristol_fsai_sim-docker/install/control_cpp/share/control_cpp/cmake/control_cppConfig-version.cmake
+[59.851s] -- Symlinking: /bristol_fsai_sim-docker/install/control_cpp/share/control_cpp/package.xml
+[59.883s] Invoked command in '/bristol_fsai_sim-docker/build/control_cpp' returned '0': AMENT_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bristol_fsai_sim-docker/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bristol_fsai_sim-docker/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /bristol_fsai_sim-docker/build/control_cpp

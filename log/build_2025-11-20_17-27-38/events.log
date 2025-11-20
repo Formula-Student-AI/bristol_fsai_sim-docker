@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.001031] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.001146] (eufs_msgs) JobQueued: {'identifier': 'eufs_msgs', 'dependencies': OrderedDict()}
+[0.001225] (eufs_racecar) JobQueued: {'identifier': 'eufs_racecar', 'dependencies': OrderedDict()}
+[0.001285] (eufs_sensors) JobQueued: {'identifier': 'eufs_sensors', 'dependencies': OrderedDict()}
+[0.001765] (eufs_tracks) JobQueued: {'identifier': 'eufs_tracks', 'dependencies': OrderedDict()}
+[0.002119] (perception) JobQueued: {'identifier': 'perception', 'dependencies': OrderedDict()}
+[0.002172] (control_cpp) JobQueued: {'identifier': 'control_cpp', 'dependencies': OrderedDict({'eufs_msgs': '/home/alan/Documents/bristol_fsai_sim-docker/install/eufs_msgs'})}
+[0.002221] (eufs_launcher) JobQueued: {'identifier': 'eufs_launcher', 'dependencies': OrderedDict({'eufs_tracks': '/home/alan/Documents/bristol_fsai_sim-docker/install/eufs_tracks'})}
+[0.002264] (eufs_models) JobQueued: {'identifier': 'eufs_models', 'dependencies': OrderedDict({'eufs_msgs': '/home/alan/Documents/bristol_fsai_sim-docker/install/eufs_msgs'})}
+[0.002307] (eufs_rqt) JobQueued: {'identifier': 'eufs_rqt', 'dependencies': OrderedDict({'eufs_msgs': '/home/alan/Documents/bristol_fsai_sim-docker/install/eufs_msgs'})}
+[0.002356] (eufs_rviz_plugins) JobQueued: {'identifier': 'eufs_rviz_plugins', 'dependencies': OrderedDict({'eufs_msgs': '/home/alan/Documents/bristol_fsai_sim-docker/install/eufs_msgs'})}
+[0.002743] (ros_can) JobQueued: {'identifier': 'ros_can', 'dependencies': OrderedDict({'eufs_msgs': '/home/alan/Documents/bristol_fsai_sim-docker/install/eufs_msgs'})}
+[0.002927] (eufs_plugins) JobQueued: {'identifier': 'eufs_plugins', 'dependencies': OrderedDict({'eufs_msgs': '/home/alan/Documents/bristol_fsai_sim-docker/install/eufs_msgs', 'eufs_models': '/home/alan/Documents/bristol_fsai_sim-docker/install/eufs_models'})}
+[0.002963] (eufs_msgs) JobStarted: {'identifier': 'eufs_msgs'}
+[0.008650] (eufs_tracks) JobStarted: {'identifier': 'eufs_tracks'}
+[0.014083] (control) JobStarted: {'identifier': 'control'}
+[0.018405] (eufs_racecar) JobStarted: {'identifier': 'eufs_racecar'}
+[0.022968] (eufs_sensors) JobStarted: {'identifier': 'eufs_sensors'}
+[0.024931] (perception) JobStarted: {'identifier': 'perception'}
+[0.032244] (eufs_msgs) JobProgress: {'identifier': 'eufs_msgs', 'progress': 'cmake'}
+[0.033312] (eufs_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/alan/Documents/bristol_fsai_sim-docker/eufs_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/alan/Documents/bristol_fsai_sim-docker/install/eufs_msgs'], 'cwd': '/home/alan/Documents/bristol_fsai_sim-docker/build/eufs_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alan', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/alan', 'OLDPWD': '/home/alan/Documents', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1726', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'alan', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'alan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/alan/.cargo/bin:/home/alan/.cabal/bin:/home/alan/.ghcup/bin:/home/alan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/alan-Latitude-5420:@/tmp/.ICE-unix/1649,unix/alan-Latitude-5420:/tmp/.ICE-unix/1649', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/24417d59_2d12_4521_b680_bec36382c18d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PGABG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alan/Documents/bristol_fsai_sim-docker/build/eufs_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.099445] (-) TimerEvent: {}
+[0.199958] (-) TimerEvent: {}
+[0.300443] (-) TimerEvent: {}
+[0.400885] (-) TimerEvent: {}
+[0.501413] (-) TimerEvent: {}
+[0.601946] (-) TimerEvent: {}
+[0.702334] (-) TimerEvent: {}
+[0.802838] (-) TimerEvent: {}
+[0.903310] (-) TimerEvent: {}
+[1.004009] (-) TimerEvent: {}
+[1.104592] (-) TimerEvent: {}
+[1.205339] (-) TimerEvent: {}
+[1.213900] (eufs_sensors) JobProgress: {'identifier': 'eufs_sensors', 'progress': 'cmake'}
+[1.215516] (eufs_sensors) Command: {'cmd': ['/usr/bin/cmake', '/home/alan/Documents/bristol_fsai_sim-docker/eufs_sim/eufs_sensors', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/alan/Documents/bristol_fsai_sim-docker/install/eufs_sensors'], 'cwd': '/home/alan/Documents/bristol_fsai_sim-docker/build/eufs_sensors', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alan', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/alan', 'OLDPWD': '/home/alan/Documents', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1726', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'alan', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'alan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/alan/.cargo/bin:/home/alan/.cabal/bin:/home/alan/.ghcup/bin:/home/alan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/alan-Latitude-5420:@/tmp/.ICE-unix/1649,unix/alan-Latitude-5420:/tmp/.ICE-unix/1649', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/24417d59_2d12_4521_b680_bec36382c18d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PGABG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alan/Documents/bristol_fsai_sim-docker/build/eufs_sensors', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[1.218626] (eufs_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.220158] (eufs_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[1.220499] (eufs_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.220692] (eufs_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.220838] (eufs_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.220981] (eufs_msgs) StderrLine: {'line': b'\n'}
+[1.221125] (eufs_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.221266] (eufs_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[1.221700] (eufs_msgs) StderrLine: {'line': b'\n'}
+[1.221847] (eufs_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.221987] (eufs_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.222136] (eufs_msgs) StderrLine: {'line': b'\n'}
+[1.222276] (eufs_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.222420] (eufs_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.222576] (eufs_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.222725] (eufs_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[1.222869] (eufs_msgs) StderrLine: {'line': b'\n'}
+[1.223011] (eufs_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.256396] (eufs_sensors) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[1.256777] (eufs_sensors) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.256915] (eufs_sensors) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.257056] (eufs_sensors) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.257190] (eufs_sensors) StderrLine: {'line': b'\n'}
+[1.257322] (eufs_sensors) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.257448] (eufs_sensors) StderrLine: {'line': b'  any of the following names:\n'}
+[1.257599] (eufs_sensors) StderrLine: {'line': b'\n'}
+[1.257724] (eufs_sensors) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.257853] (eufs_sensors) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.257974] (eufs_sensors) StderrLine: {'line': b'\n'}
+[1.258097] (eufs_sensors) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.258220] (eufs_sensors) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.258344] (eufs_sensors) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.258462] (eufs_sensors) StderrLine: {'line': b'  has been installed.\n'}
+[1.258611] (eufs_sensors) StderrLine: {'line': b'\n'}
+[1.258732] (eufs_sensors) StderrLine: {'line': b'\x1b[0m\n'}
+[1.258855] (eufs_sensors) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.305555] (-) TimerEvent: {}
+[1.405959] (-) TimerEvent: {}
+[1.506346] (-) TimerEvent: {}
+[1.606303] (eufs_msgs) CommandEnded: {'returncode': 1}
+[1.607006] (-) TimerEvent: {}
+[1.621987] (eufs_sensors) CommandEnded: {'returncode': 1}
+[1.651599] (eufs_msgs) JobEnded: {'identifier': 'eufs_msgs', 'rc': 1}
+[1.653909] (eufs_sensors) JobEnded: {'identifier': 'eufs_sensors', 'rc': 'SIGINT'}
+[1.707156] (-) TimerEvent: {}
+[1.807649] (-) TimerEvent: {}
+[1.908139] (-) TimerEvent: {}
+[2.008637] (-) TimerEvent: {}
+[2.109126] (-) TimerEvent: {}
+[2.209644] (-) TimerEvent: {}
+[2.310148] (-) TimerEvent: {}
+[2.410696] (-) TimerEvent: {}
+[2.444548] (perception) JobEnded: {'identifier': 'perception', 'rc': 'SIGINT'}
+[2.445691] (eufs_tracks) JobEnded: {'identifier': 'eufs_tracks', 'rc': 'SIGINT'}
+[2.447051] (control) JobEnded: {'identifier': 'control', 'rc': 'SIGINT'}
+[2.449196] (eufs_racecar) JobEnded: {'identifier': 'eufs_racecar', 'rc': 'SIGINT'}
+[2.460306] (control_cpp) JobSkipped: {'identifier': 'control_cpp'}
+[2.460432] (eufs_launcher) JobSkipped: {'identifier': 'eufs_launcher'}
+[2.460470] (eufs_models) JobSkipped: {'identifier': 'eufs_models'}
+[2.460500] (eufs_rqt) JobSkipped: {'identifier': 'eufs_rqt'}
+[2.460528] (eufs_rviz_plugins) JobSkipped: {'identifier': 'eufs_rviz_plugins'}
+[2.460582] (ros_can) JobSkipped: {'identifier': 'ros_can'}
+[2.460611] (eufs_plugins) JobSkipped: {'identifier': 'eufs_plugins'}
+[2.460639] (-) EventReactorShutdown: {}

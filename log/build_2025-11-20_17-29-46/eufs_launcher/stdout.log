@@ -1,0 +1,32 @@
+running develop
+running egg_info
+creating src/eufs_launcher.egg-info
+writing src/eufs_launcher.egg-info/PKG-INFO
+writing dependency_links to src/eufs_launcher.egg-info/dependency_links.txt
+writing requirements to src/eufs_launcher.egg-info/requires.txt
+writing top-level names to src/eufs_launcher.egg-info/top_level.txt
+writing manifest file 'src/eufs_launcher.egg-info/SOURCES.txt'
+reading manifest file 'src/eufs_launcher.egg-info/SOURCES.txt'
+writing manifest file 'src/eufs_launcher.egg-info/SOURCES.txt'
+running build_ext
+Creating /bristol_fsai_sim-docker/install/eufs_launcher/lib/python3.8/site-packages/site.py
+Creating /bristol_fsai_sim-docker/install/eufs_launcher/lib/python3.8/site-packages/eufs-launcher.egg-link (link to src)
+Installing eufs_launcher script to /bristol_fsai_sim-docker/install/eufs_launcher/lib/eufs_launcher
+
+Installed /bristol_fsai_sim-docker/build/eufs_launcher/src
+running install_data
+copying launch/hardware.launch.py -> /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher
+copying launch/bristol_fsai.launch.py -> /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher
+copying launch/eufs_launcher.launch.py -> /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher
+copying launch/simulation.launch.py -> /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher
+creating /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher/config
+copying config/default.rviz -> /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher/config
+copying config/eufs_launcher.yaml -> /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher/config
+creating /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher/resource
+copying resource/launcher.ui -> /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher/resource
+copying plugin.xml -> /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher
+copying package.xml -> /bristol_fsai_sim-docker/install/eufs_launcher/share/eufs_launcher
+creating /bristol_fsai_sim-docker/install/eufs_launcher/share/ament_index
+creating /bristol_fsai_sim-docker/install/eufs_launcher/share/ament_index/resource_index
+creating /bristol_fsai_sim-docker/install/eufs_launcher/share/ament_index/resource_index/packages
+copying resource/eufs_launcher -> /bristol_fsai_sim-docker/install/eufs_launcher/share/ament_index/resource_index/packages

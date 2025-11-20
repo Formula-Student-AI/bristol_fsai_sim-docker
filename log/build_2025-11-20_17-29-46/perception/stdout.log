@@ -1,0 +1,31 @@
+running develop
+running egg_info
+creating perception.egg-info
+writing perception.egg-info/PKG-INFO
+writing dependency_links to perception.egg-info/dependency_links.txt
+writing entry points to perception.egg-info/entry_points.txt
+writing requirements to perception.egg-info/requires.txt
+writing top-level names to perception.egg-info/top_level.txt
+writing manifest file 'perception.egg-info/SOURCES.txt'
+reading manifest file 'perception.egg-info/SOURCES.txt'
+writing manifest file 'perception.egg-info/SOURCES.txt'
+running build_ext
+Creating /bristol_fsai_sim-docker/install/perception/lib/python3.8/site-packages/site.py
+Creating /bristol_fsai_sim-docker/install/perception/lib/python3.8/site-packages/perception.egg-link (link to .)
+Installing ConePositionEstimator script to /bristol_fsai_sim-docker/install/perception/lib/perception
+Installing YOLONode script to /bristol_fsai_sim-docker/install/perception/lib/perception
+
+Installed /bristol_fsai_sim-docker/build/perception
+running install_data
+creating /bristol_fsai_sim-docker/install/perception/share/ament_index
+creating /bristol_fsai_sim-docker/install/perception/share/ament_index/resource_index
+creating /bristol_fsai_sim-docker/install/perception/share/ament_index/resource_index/packages
+copying resource/perception -> /bristol_fsai_sim-docker/install/perception/share/ament_index/resource_index/packages
+copying package.xml -> /bristol_fsai_sim-docker/install/perception/share/perception
+creating /bristol_fsai_sim-docker/install/perception/share/perception/models
+copying perception/models/yolov11n_640.pt -> /bristol_fsai_sim-docker/install/perception/share/perception/models
+copying perception/models/yolov11s_1024_motion_blur.pt -> /bristol_fsai_sim-docker/install/perception/share/perception/models
+copying perception/models/yolov5n_640.pt -> /bristol_fsai_sim-docker/install/perception/share/perception/models
+copying perception/models/yolov11s_1024.pt -> /bristol_fsai_sim-docker/install/perception/share/perception/models
+creating /bristol_fsai_sim-docker/install/perception/share/perception/config
+copying config/perception_params.yaml -> /bristol_fsai_sim-docker/install/perception/share/perception/config

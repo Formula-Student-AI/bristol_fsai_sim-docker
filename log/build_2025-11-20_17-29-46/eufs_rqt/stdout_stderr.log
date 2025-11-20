@@ -1,0 +1,31 @@
+running develop
+running egg_info
+creating src/eufs_rqt.egg-info
+writing src/eufs_rqt.egg-info/PKG-INFO
+writing dependency_links to src/eufs_rqt.egg-info/dependency_links.txt
+writing requirements to src/eufs_rqt.egg-info/requires.txt
+writing top-level names to src/eufs_rqt.egg-info/top_level.txt
+writing manifest file 'src/eufs_rqt.egg-info/SOURCES.txt'
+reading manifest file 'src/eufs_rqt.egg-info/SOURCES.txt'
+writing manifest file 'src/eufs_rqt.egg-info/SOURCES.txt'
+running build_ext
+Creating /bristol_fsai_sim-docker/install/eufs_rqt/lib/python3.8/site-packages/site.py
+Creating /bristol_fsai_sim-docker/install/eufs_rqt/lib/python3.8/site-packages/eufs-rqt.egg-link (link to src)
+Installing eufs_robot_steering_gui script to /bristol_fsai_sim-docker/install/eufs_rqt/lib/eufs_rqt
+Installing mission_control_gui script to /bristol_fsai_sim-docker/install/eufs_rqt/lib/eufs_rqt
+
+Installed /bristol_fsai_sim-docker/build/eufs_rqt/src
+running install_data
+creating /bristol_fsai_sim-docker/install/eufs_rqt/share/eufs_rqt/config
+copying config/eufs_sim.perspective -> /bristol_fsai_sim-docker/install/eufs_rqt/share/eufs_rqt/config
+copying config/topics_frequency.perspective -> /bristol_fsai_sim-docker/install/eufs_rqt/share/eufs_rqt/config
+copying config/topics_frequency_config.yaml -> /bristol_fsai_sim-docker/install/eufs_rqt/share/eufs_rqt/config
+creating /bristol_fsai_sim-docker/install/eufs_rqt/share/eufs_rqt/resource
+copying resource/EUFSRobotSteeringGUI.ui -> /bristol_fsai_sim-docker/install/eufs_rqt/share/eufs_rqt/resource
+copying resource/MissionControlGUI.ui -> /bristol_fsai_sim-docker/install/eufs_rqt/share/eufs_rqt/resource
+copying plugin.xml -> /bristol_fsai_sim-docker/install/eufs_rqt/share/eufs_rqt
+creating /bristol_fsai_sim-docker/install/eufs_rqt/share/ament_index
+creating /bristol_fsai_sim-docker/install/eufs_rqt/share/ament_index/resource_index
+creating /bristol_fsai_sim-docker/install/eufs_rqt/share/ament_index/resource_index/packages
+copying resource/eufs_rqt -> /bristol_fsai_sim-docker/install/eufs_rqt/share/ament_index/resource_index/packages
+copying package.xml -> /bristol_fsai_sim-docker/install/eufs_rqt/share/eufs_rqt
