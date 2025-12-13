@@ -8,7 +8,7 @@ This is the Bristol FSAI simulator developed for the FSAI competition. It curren
 
 ## Setup
 
-0. Follow the [setup guides](https://www.notion.so/ROS-Workspace-Setup-2628e265caa6812984e1cd535728af9b) if you need to set up a ROS workspace (there are .devcontainer files included in this repo if you are using dev containers).
+0. Follow the [setup guides](https://complete-kick-c47.notion.site/ROS-Workspace-Setup-2628e265caa6812984e1cd535728af9b) if you need to set up a ROS workspace (there are .devcontainer files included in this repo if you are using dev containers).
 
 1. Navigate to your home folder and clone this repo (this will be inside your virtual machine/container)
    ```
