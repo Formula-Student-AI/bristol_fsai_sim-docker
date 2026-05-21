@@ -1,5 +1,7 @@
 # README
 
+**Please use Bristol FSAI simulator 2 INSTEAD (Ubuntu 22.04)** 
+
 This is the Bristol FSAI simulator developed for the FSAI competition. It currently relies heavily on [EUFS Sim](https://gitlab.com/eufs/eufs_sim).
 
 ## Versions
