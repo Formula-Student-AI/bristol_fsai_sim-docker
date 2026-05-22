@@ -1,18 +1,33 @@
 {
-  "name": "galactic desktop",
-  "dockerFile": "Dockerfile",
+  "name": "ros-humble",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "USERNAME": "vscode"
+    }
+  },
+  "remoteUser": "vscode",
   "runArgs": [
     "--privileged",
-    "--network=host"
+    "--network=host",
+    "--ipc=host"
+    // "--gpus=all"
   ],
   "workspaceMount": "source=${localWorkspaceFolder},target=/${localWorkspaceFolderBasename},type=bind",
   "workspaceFolder": "/${localWorkspaceFolderBasename}",
   "mounts": [
-    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/vscode/.bash_history,type=bind"
+    "source=${localEnv:HOME}/.bash_history,target=/home/vscode/.bash_history,type=bind",
+    "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind",
+    "source=${localEnv:XDG_RUNTIME_DIR}/${localEnv:WAYLAND_DISPLAY},target=/tmp/${localEnv:WAYLAND_DISPLAY},type=bind"
   ],
   // EUFS setup
   "containerEnv": {
-    "EUFS_MASTER": "/${localWorkspaceFolderBasename}"
+    "EUFS_MASTER": "/${localWorkspaceFolderBasename}",
+    "DISPLAY": "${localEnv:DISPLAY}",
+    "WAYLAND_DISPLAY": "${localEnv:WAYLAND_DISPLAY}",
+    "XDG_RUNTIME_DIR": "/tmp",
+    "QT_QPA_PLATFORM": "xcb",
+    "QT_X11_NO_MITSHM": "1"
   },
   "customizations": {
     "vscode": {
